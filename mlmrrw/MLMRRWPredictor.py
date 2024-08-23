@@ -11,12 +11,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin
-import pprint
 import pandas as pd
 import sys
 from numpy.random import default_rng
 import math
-import threading
 import random
 from scipy.linalg import inv
 from sklearn.metrics import pairwise_distances

@@ -1,0 +1,33 @@
+Avg precision :	 0.5225345036939424
+Micro Avg precision AUCPR :	 0.5491628871354608
+Label rank Avg precision :	 0.6902621722846444
+Accuracy:	0.06741573033707865
+Haming:	0.28277153558052437
+AUC.micro:	0.6753375007635763
+AUC.macro:	0.6753375007635763
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        52
+           1       0.00      0.00      0.00        50
+           2       0.68      0.63      0.65        83
+           3       0.00      0.00      0.00        42
+           4       0.00      0.00      0.00        53
+           5       0.73      0.15      0.24        55
+
+   micro avg       0.69      0.18      0.28       335
+   macro avg       0.24      0.13      0.15       335
+weighted avg       0.29      0.18      0.20       335
+ samples avg       0.34      0.19      0.23       335
+TN	FN	TP	FP
+126	52	0	0
+128	50	0	0
+71	31	52	24
+136	42	0	0
+125	53	0	0
+120	47	8	3
+gamma_A: 0.001
+gamma_I: 19
+XI_v1: 0.9
+XI_v2: 0.1
+gamma: 30
+eps: 0.7
